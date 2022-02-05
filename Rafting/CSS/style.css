@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 }
 
-main {background-color: #3d82c3;}
+main {background-color: #00b9ae;}
 
 header, footer {
     display: grid;
@@ -15,15 +15,28 @@ header, footer {
 
 body {
     font-size: larger;
+    font-family: Arial, Helvetica, Georgia;
     background-color: #3d82c3;
 }
+
+a {
+    color: #fff;
+    font-size: larger;
+}
+
+main,header,footer {
+    border: 1px solid #5f6a58;
+    padding: 8px;
+}
+
 /* Class Selectors */
 .page {
     max-width: 960px;
     margin: 0 auto; ;
 }
 
-a {
-    color: #FFFF;
-    font-size: larger;
+.hero {
+    filter: drop-shadow(5px 8px 10px #5f6a58);
+    box-shadow: 0px 0px 1px #5f6a58;
+    margin-bottom: 1rem;
 }
