@@ -3,15 +3,35 @@ margin: 0;
 padding: 0;
 }
 
-main {background-color: #00b9ae;}
+main {
+    background-color: #00b9ae;
+    text-align: center;
+}
 
 header, footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     background-color: #5f6a58;
 }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 130%;
+    margin: 0px;
+    position: relative;
+    left: -175px;
+    font-size: larger;
+}
+
+li {
+    margin: 10px;
+    display: block;
+}
+
 
 body {
     font-size: larger;
@@ -22,25 +42,125 @@ body {
 a {
     color: #fff;
     font-size: larger;
+    text-decoration: none;
+}
+
+nav a:hover {
+    display: block;
+    color: fff;
+    background-color: #c96100;
+}
+
+
+footer a {
+    position: relative;
+    left: 200px;
+}
+
+span {
+    position: relative;
+    left: 50px;
+    font-size: medium;
+
 }
 
 main,header,footer {
     border: 1px solid #5f6a58;
-    padding: 8px;
+    padding: 0px;
+    justify-content: center;
 }
 
 footer {
     color: #fff;
 }
 
+h2 {
+    box-sizing: border-box;
+}
+
 /* Class Selectors */
 .page {
-    max-width: 960px;
+    max-width: 1000px;
     margin: 0 auto; ;
 }
 
+.hook {
+    display: grid;
+}
+
+.banner img{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner {
+    width: 100%;
+    grid-column: 1/3;
+}
+
+.firstsection {
+    grid-column: 1/2;
+    text-align: center;
+    padding: 2rem;
+    margin: auto;
+}
+
+.firstsectionpic {
+    grid-column: 2/3;
+    padding: 1rem 0px;
+    margin: auto;
+}
+
+.secondsection {
+    grid-column: 2/3;
+    text-align: center;
+    padding: 2rem;
+    margin: auto;
+}
+
+.secondsectionpic {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 1rem 0px;
+    margin:auto;
+}
+
+.summary {
+    grid-column: 1/4;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+}
+
+.hook h2 {
+    box-sizing: content-box;
+    border: solid #5f6a58;
+    background-color: #c96100;
+}
+
 .hero {
-    filter: drop-shadow(5px 8px 10px #5f6a58);
-    box-shadow: 0px 0px 1px #5f6a58;
-    margin-bottom: 1rem;
+    position: relative;
+}
+
+.cta {
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    font-size: large;
+    color: #fff;
+    background-color:#5f6a58;
+    border:solid 2px #fff;
+    opacity: .8;
+}
+
+.hero a {
+    display: block;
+    padding: 1rem;
+}
+
+.hero a:hover {
+    display: block;
+    color:#fff;
+    background-color: #c96100;
 }
