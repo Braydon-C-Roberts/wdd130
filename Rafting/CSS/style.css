@@ -74,6 +74,10 @@ footer {
     color: #fff;
 }
 
+h1 {
+    display: none;
+}
+
 h2 {
     box-sizing: border-box;
 }
