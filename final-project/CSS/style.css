@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #f4f3ef;
+    padding: 3rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: larger;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color: #394c64;
+}
+
+footer {
+    background-color: #394c64;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+header img {
+    width: 15rem;
+    padding: 2rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 130%;
+    margin: 50px;
+    position: relative;
+    left: -30rem;
+    font-size: larger;
+    justify-content: space-evenly;
+}
+
+li {
+    margin: 10px;
+    display: block;
+}
+
+
+body {
+    font-size: larger;
+    font-family: Arial, Helvetica, Georgia;
+    background-color: #DE6920;
+}
+
+a {
+    color: #edb232;
+    font-size: larger;
+    text-decoration: none;
+}
+
+nav a:hover {
+    display: block;
+    color: #394c64;
+    background-color: #edb232;
+}
+
+/* Class Selectors */
+.colorpallete img {
+    padding: 1rem;
+    width: 50%;
+    filter: drop-shadow(8px 8px 10px #394c64);
+}
+
+.plan {
+    padding: 2rem;
+}
+
+.audience {
+    padding: 2rem;
+}
+
+.purpose {
+    padding: 2rem;
+}
