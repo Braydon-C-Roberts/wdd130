@@ -27,6 +27,10 @@ footer {
     padding: 2rem;
 }
 
+span {
+    color: #edb232;
+}
+
 header img {
     width: 15rem;
     padding: 2rem;
