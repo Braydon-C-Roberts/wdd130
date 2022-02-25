@@ -56,7 +56,7 @@ li {
 
 body {
     font-size: larger;
-    font-family: Arial, Helvetica, Georgia;
+    font-family: Georgia, Helvetica, Arial;
     background-color: #DE6920;
 }
 
@@ -89,4 +89,12 @@ nav a:hover {
 
 .purpose {
     padding: 2rem;
+}
+
+.design {
+    padding: 2rem;
+}
+
+.design p{
+    padding: .5rem;
 }
