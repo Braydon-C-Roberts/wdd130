@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/*Homepage*/
+
 main {
     background-color: #f4f3ef;
     padding: 3rem;
@@ -72,7 +74,6 @@ nav a:hover {
     background-color: #edb232;
 }
 
-/* Class Selectors */
 .colorpallete img {
     padding: 1rem;
     width: 50%;
@@ -98,3 +99,5 @@ nav a:hover {
 .design p{
     padding: .5rem;
 }
+
+/*Homepage end*/

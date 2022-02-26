@@ -3,6 +3,8 @@ margin: 0;
 padding: 0;
 }
 
+/*Homepage*/
+
 main {
     background-color: #00b9ae;
     text-align: center;
@@ -16,7 +18,7 @@ header, footer {
     background-color: #5f6a58;
 }
 
-ul {
+header ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -74,15 +76,14 @@ footer {
     color: #fff;
 }
 
-h1 {
-    display: none;
-}
-
 h2 {
     box-sizing: border-box;
 }
 
-/* Class Selectors */
+.page h1 {
+    display: none;
+}
+
 .page {
     max-width: 1000px;
     margin: 0 auto; ;
@@ -168,3 +169,22 @@ h2 {
     color:#fff;
     background-color: #c96100;
 }
+
+/*Tripspage*/
+.trips main {
+    grid-template-columns: 1fr 1fr;
+}
+
+.trips ul {
+    justify-content: center;
+}
+
+.trips h2{
+    border:1px solid #5f6a58;
+    background-color: #c96100;
+}
+
+/*Tripspage end*/
+
+/*Contact page*/
+/*Contact page end*/
