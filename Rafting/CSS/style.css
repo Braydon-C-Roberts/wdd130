@@ -74,7 +74,7 @@ main,header,footer {
 
 footer {
     color: #fff;
-}
+    }
 
 h2 {
     box-sizing: border-box;
@@ -85,7 +85,7 @@ h2 {
 }
 
 .page {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto; ;
 }
 
@@ -134,7 +134,7 @@ h2 {
 .summary {
     grid-column: 1/4;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem 1rem 3rem 1rem;
     margin: auto;
 }
 
@@ -231,7 +231,7 @@ h2 {
     width: 95%;
     border: solid 1px #5f6a58;
     justify-self: center;
-    box-shadow: #5f6a58 1px 1px 3px;
+    box-shadow: #5f6a58 1px 3px 6px;
 }
 
 .package2 {
@@ -242,7 +242,7 @@ h2 {
     width: 100%;
     border: solid 1px #5f6a58;
     justify-self: center;
-    box-shadow: #5f6a58 1px 1px 3px;
+    box-shadow: #5f6a58 1px 3px 6px;
 }
 
 .package3 {
@@ -252,7 +252,7 @@ h2 {
     margin: 0rem 1rem 1rem 1rem;
     width: 110%;
     border: solid 1px #5f6a58;
-    box-shadow: #5f6a58 1px 1px 3px;
+    box-shadow: #5f6a58 1px 3px 6px;
 }
 
 .package4 {
@@ -262,7 +262,7 @@ h2 {
     margin: 0rem 1rem 1rem 1rem;
     width: 110%;
     border: solid 1px #5f6a58;
-    box-shadow: #5f6a58 1px 1px 3px;
+    box-shadow: #5f6a58 1px 3px 6px;
 }
 
 .adventure {
