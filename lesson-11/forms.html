@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="/my-handling-form-page" method="post">
+
+        <ul>
+
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" name="user_name" id="name" required="required">
+            </li>
+
+            <li>
+                <label for="mail">Email: </label>
+                <input type="email" name="user_email" id="mail" required="required">
+            </li>
+
+            <li>
+                <label for="message">Message: </label>
+                <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
+            </li>
+
+            <li class="button" type="submit">
+                <button>Send your message</button>
+            </li>
+
+        </ul>
+    </form>
+
+</body>
+
+</html>
