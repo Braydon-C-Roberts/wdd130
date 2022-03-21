@@ -40,6 +40,7 @@ textarea {
   border: 1px solid blue;
   background-color: rgb(245, 15, 243);
   color: yellow;
+  padding: .5em;
 }
 
 input:focus,
@@ -59,4 +60,5 @@ textarea {
 button {
     background-color: rgb(87, 255, 255);
   margin-left: .5em;
+  padding: .5em;
 }
