@@ -1,0 +1,111 @@
+body {
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri, sans-serif;
+    letter-spacing: 0.03em;
+  }
+
+.card {
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: inset 0 4px 5px 2px white;
+    box-shadow: -5px 5px 20px -5px black;
+}
+
+.border-bottom {
+    border-radius: 0 0 15px 15px;
+}
+
+.bold {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.p-2 {
+    padding: 6px;
+}
+
+.pl-2 {
+    padding-left: 10px;
+}
+
+.pb-4 {
+    padding-bottom: 20px ;
+}
+
+.pr-2 {
+    padding-right: 10px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bold-small{
+    padding-top: 7px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.medium-font {
+    font-size: 20px;
+}
+
+.like {
+    width: 50px;
+    position: relative;
+    top: -235px;
+    left: 325px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hover :hover{
+    transition: all .5s ease-in-out;
+    transform: scale(1.5);
+}
+
+.temple {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.border-b {
+    margin-bottom: -57px;
+}
+
+.empty {
+    width: 100%;
+    height: 14px;
+    background: linear-gradient(to bottom,  #fff, #b6b6b6);
+}
+
+button {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: .5px;
+}
+
+a :hover{
+    transition: all .5s ease-in-out;
+    background-color: black;
+    color: white;
+}
