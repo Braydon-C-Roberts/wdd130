@@ -6,13 +6,22 @@
 /*Homepage*/
 
 main {
-    background-color: #f4f3ef;
+    background-color: #e8e3d6;
     padding: 3rem;
     text-align: center;
 }
 
 h1 {
-    font-size: larger;
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 27px;
+    padding: 1rem;
+}
+
+p {
+    font-size: 20px;
 }
 
 header {
@@ -20,11 +29,9 @@ header {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
-    background-color: #394c64;
 }
 
 footer {
-    background-color: #394c64;
     font-size: 1.5rem;
     padding: 2rem;
 }
@@ -45,7 +52,7 @@ nav ul {
     width: 130%;
     margin: 50px;
     position: relative;
-    left: -30rem;
+    left: -40rem;
     font-size: larger;
     justify-content: space-evenly;
 }
@@ -75,25 +82,20 @@ nav a:hover {
 }
 
 .colorpallete img {
-    padding: 1rem;
     width: 50%;
     filter: drop-shadow(8px 8px 10px #394c64);
 }
 
-.plan {
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
     padding: 2rem;
 }
 
-.audience {
-    padding: 2rem;
-}
-
-.purpose {
-    padding: 2rem;
-}
-
-.design {
-    padding: 2rem;
+.p-3 {
+    pad: 3rem;
 }
 
 .design p{
@@ -101,3 +103,55 @@ nav a:hover {
 }
 
 /*Homepage end*/
+
+/*Breeds*/
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    align-items: center;
+  }
+
+.card {
+    width: 400px;
+    border-radius: 20px;
+    margin: 5rem;
+    padding: 1rem;
+    background-color: #eee;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;
+    height: 20rem;
+    box-shadow: 1px 1px 5px 1px #394c64; 
+     
+}
+
+.shadow {
+    box-shadow: 2px 2px 5px #394c64;
+}
+
+.bg-white {
+    background-color: #f4f3ef;
+}
+
+.bg-blue {
+ background-color: #394c64;
+}
+
+.bg-orange {
+    background-color: #DE6920;
+}
+
+.b-blue {
+    border: 1px solid #394c64;
+}
+
+/*Breeds*/
+
+/*About Us*/
