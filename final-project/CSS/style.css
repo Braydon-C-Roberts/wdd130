@@ -21,7 +21,7 @@ h2 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 header {
@@ -67,12 +67,15 @@ li {
 body {
     font-size: larger;
     font-family: Georgia, Helvetica, Arial;
-    background-color: #DE6920;
+}
+
+nav a {
+    color: #edb232;
+    font-size: larger;
 }
 
 a {
-    color: #edb232;
-    font-size: larger;
+    color: #000;
     text-decoration: none;
 }
 
@@ -96,7 +99,7 @@ nav a:hover {
 }
 
 .p-3 {
-    pad: 3rem;
+    padding: 3rem;
 }
 
 .design p{
@@ -151,6 +154,11 @@ nav a:hover {
 
 .b-blue {
     border: 1px solid #394c64;
+}
+
+.text-box {
+    text-align: center;
+    margin: 17rem;
 }
 
 /*Breeds*/
