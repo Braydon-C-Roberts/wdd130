@@ -55,6 +55,7 @@ nav ul {
     left: -40rem;
     font-size: larger;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 li {
