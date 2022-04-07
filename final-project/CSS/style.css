@@ -142,6 +142,19 @@ nav a:hover {
     width: 20%;
     margin: 2rem;
 }
+
+.nobullet {
+    list-style: none;
+}
+
+.feedback {
+    margin-left:40% ;
+    align-items: center;
+    width: 20%;
+    padding-top: 3rem;
+}
+
+
 /* Universally used CSS end*/
 
 /* Page specific CSS */
