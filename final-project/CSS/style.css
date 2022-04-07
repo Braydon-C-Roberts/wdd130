@@ -137,6 +137,11 @@ nav a:hover {
 .coming-soon {
     height: 60%;
 }
+
+.sad-kitty-style {
+    width: 20%;
+    margin: 2rem;
+}
 /* Universally used CSS end*/
 
 /* Page specific CSS */
@@ -152,10 +157,20 @@ nav a:hover {
     align-items: center;
 }
 
+.buttonstyle {
+    border-radius: 2rem;
+    border-width: 1px;
+    border-color: #DE6920;
+    background-color: #394c64;
+    font-size: 1.5rem;
+    color: #edb232;
+}
+
 .card img {
     width: 400px;
     box-shadow: 1px 1px 5px 1px #394c64; 
      
+
 }
 
 .founder {
